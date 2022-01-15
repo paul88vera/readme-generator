@@ -33,7 +33,7 @@ const questions = () => {
   },
   {
     type: 'input',
-    name: 'usageInfo',
+    name: 'usage',
     message: 'What can you tell me about the usage information?'
   },
   {
@@ -45,24 +45,34 @@ const questions = () => {
     type: 'list',
     name: 'license',
     message: 'What type of license is this?',
-    choices: ['MIT', 'Boost', 'None']
+    choices: ['MIT', 'Boost', 'APACHE', 'BSD-2', 'BSD-3', 'Mozilla', 'None']
   },
   {
     type: 'input',
-    name: 'contributions',
+    name: 'contributing',
     message: 'What did you contribute?'
   },
   {
     type: 'input',
-    name: 'testInstructions',
+    name: 'tests',
     message: 'What are your test instructions?'
+  },
+  {
+    type: 'input',
+    name: 'github',
+    message: 'What is your GitHub username?'
+  },
+  {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email address?'
   }
  ])
 };
 
 // TODO: Create a function to write README file
 function writeToFile(data) {
-  fs.writeFile('./dist/newThing.md', data, err => {
+  fs.writeFile('./dist/newREADME.md', data, err => {
     if (err) throw err;
       console.log('page was created!');
   });
@@ -79,7 +89,7 @@ function init() {
       console.log('error');
     }
 
-    const generate = generateReadMe(answers);
+    const generate = generateReadMe.generateMarkdown(answers);
 
     writeToFile(generate);
   });
