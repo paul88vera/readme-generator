@@ -32,7 +32,11 @@
 
 
   ## Tests
-  Type `node index.js` in terminal
+  In your cloned file pathway, type this into your terminal and answer the questions.
+  ``` 
+  node index.js 
+  ```
+  If successful, your `newREADME.md` file will be located in the `dist` folder. 
 
 ---
   ## Questions
