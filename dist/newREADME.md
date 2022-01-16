@@ -1,8 +1,11 @@
 
-  # README-Generator
-
+  # Professional README.md - Generator
+  Type in your answers:
+  ![Screenshot](./images/usage.png/)
+  View your results in `dist/newREADME.md`:
+  ![Screenshot](./images/Results.png/)
   ## Description
-  This project allows a user to generate a README.md just by answering several questions in the terminal. This has been made by this README Generator!
+  This project allows a user to generate a `README.md` just by answering several questions in the terminal. This has been made by this README Generator!
 
   ## Table of Contents
   - [Installation](#installation)
@@ -13,7 +16,8 @@
   - [Questions](#questions)
 
   ## Installation
-  * When on page, click the `code` button and copy the `HTTPS` URL or `SSH` key
+  [View Video Tutorial Here](https://drive.google.com/file/d/1tngw9i2WT-l_XNBOvn79buf_YOMbXg3B/view) or view the steps below: 
+  * When on page, click the `code` button and copy the `HTTPS` URL
   * Create a folder on your local computer and use `git clone` to clone repo into the folder
   * Once downloaded, open in your favorite code editor
   * In your terminal, type `node index.js`
@@ -21,6 +25,7 @@
   * Your new `README.md` file will be in the `dist` folder
 
   ## Usage
+  [View Video Tutorial Here](https://drive.google.com/file/d/1tngw9i2WT-l_XNBOvn79buf_YOMbXg3B/view) -
   The generator is a great way to save time and frustration when developing a solid `README.md` file. Now all you have to do is answer several questions and you got a great looking professional `README.md` file.
 
   ## License
