@@ -37,11 +37,6 @@ const questions = () => {
     message: 'What can you tell me about the usage information?'
   },
   {
-    type: 'input',
-    name: 'feature',
-    message: 'Do you want this to be featured?'
-  },
-  {
     type: 'list',
     name: 'license',
     message: 'What type of license is this?',
