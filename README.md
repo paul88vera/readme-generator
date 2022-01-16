@@ -1,15 +1,19 @@
 
   # Professional README.md-Generator
-
+  Type in your answers:
+  ![Screenshot](./images/usage.png/)
+  View your results in `dist/newREADME.md`:
+  ![Screenshot](./images/Results.png/)
   ## Description
   This project allows a user to generate a `README.md` just by answering several questions in the terminal. This has been made by this README Generator!
 
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-  - [Contribution](#contribution)
-  - [Tests](#tests)
   - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
   ## Installation
   * When on page, click the `code` button and copy the `HTTPS` URL
@@ -29,7 +33,6 @@
   There are many ways to contribute, for example:
   * [Submit bugs and feature requests](https://github.com/paul88vera/readme-generator/issues), and help us verify as they are checked in
   * You can also contact me down below
-
 
   ## Tests
   In your cloned file pathway, type this into your terminal and answer the questions.
