@@ -58,13 +58,14 @@ const licenseOBJ = {
 
   ## Tests
   ${data.tests}
+  
 ----
   ## Questions
   If you have questions, you can contact me below!
   
   GitHub Username: ${data.github}
 
-  GitHub Profile: ![Github.com/${data.github}](https://github.com/${data.github}/)
+  GitHub Profile: [Github.com/${data.github}](https://github.com/${data.github}/)
 
   Email Address: ${data.email}
  `;

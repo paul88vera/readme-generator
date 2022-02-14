@@ -1,7 +1,7 @@
 
   # Professional README.md - Generator
   Type in your answers:
-  ![Screenshot](./images/usage.png/)
+  ![Screenshot](./images/Usage.png/)
   View your results in `dist/newREADME.md`:
   ![Screenshot](./images/Results.png/)
   ## Description
